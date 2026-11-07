@@ -1,0 +1,21 @@
+*** Creating Trace Output File 'version3.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup_lpc17xx.o"'
+### List of Objects: adding '"version3.o"'
+### List of Objects: adding '"system_lpc17xx.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "startup_lpc17xx.o" "version3.o" "system_lpc17xx.o" 
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x10000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\version3.map" -o version3.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'version3.axf'
+### ADS-LD Command File: 'version3.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'version3.lnp', Handle=0x000003D4
+### Writing '.lnp' file
+### ADS-LD Command file 'version3.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
